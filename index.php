@@ -10,12 +10,10 @@
 	<script src="js/page.js" type="text/javascript"></script>
 </head>
 <body>	
-	<header>
-		<img src="img/IEM_logo.png">
-		<h1>Instituto<br>de Estudios Modernos</h1>
-		<a href="?idioma=es">ES</a> |
-		<a href="?idioma=ca">CA</a>
-	</header><br>
+	<!--header-->
+	<?php include('includes/header.html');
+	;?>
+	<br>
 	<div class="wraper">
 		<nav>
 			<ul>
