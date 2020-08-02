@@ -15,13 +15,9 @@
 	;?>
 	<br>
 	<div class="wraper">
-		<nav>
-			<ul>
-				<li><a class="navboton" href="index.php">LA ESCUELA</a></li>
-				<li><a class="navboton" href="cursos.php">CURSOS Y HORARIOS</a></li>
-				<li><a class="navboton" href="contacto.php">SITUACIÓN Y CONTACTO</a></li>
-			</ul>
-		</nav>
+		<!--navbar-->
+		<?php include('includes/navbar.html');
+		;?>
 		<div class="content">
 			<div class="slider">
 				<img src="img/iem_1.jpg" /><img src="img/iem_2.jpg" />
