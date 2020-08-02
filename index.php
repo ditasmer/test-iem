@@ -1,3 +1,8 @@
+<?php
+//gestion del idioma
+require('multiidioma/language.php');
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
