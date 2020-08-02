@@ -1,3 +1,7 @@
+<?php
+//gestion del idioma
+require('multiidioma/language.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,18 +14,13 @@
 	<script src="js/page.js" type="text/javascript"></script>
 </head>
 <body>
-	<header>
-		<img src="img/IEM_logo.png">
-		<h1>Instituto<br>de Estudios Modernos</h1>
-	</header><br>
+	<!--header-->
+	<?php include('includes/header.html');
+	;?><br>
 	<div class="wraper">
-		<nav>
-			<ul>
-				<li><a class="navboton" href="index.php">LA ESCUELA</a></li>
-				<li><a class="navboton" href="cursos.php">CURSOS Y HORARIOS</a></li>
-				<li><a class="navboton" href="contacto.php">SITUACIÓN Y CONTACTO</a></li>
-			</ul>
-		</nav>
+		<!--navbar-->
+	<?php include('includes/navbar.html');
+	;?>
 		<div class="content">
 			<div class="slider" >
 				<img src="img/iem_1.jpg" /><img src="img/iem_2.jpg" />
@@ -51,16 +50,10 @@
 			</div>
 		</div>
 	
-		<footer>
-			<ul>
-				<li style="font-size: 1.0em; color: black">Comparte en:</li><br>
-				<li>
-					<img src="img/facebook_logo.png" alt="facebook" title="Comparteix a facebook"/></a>&nbsp&nbsp
-					<img src="img/twitter_logo.png" alt="twitter" title="Comparteix a twitter"/></a>&nbsp&nbsp
-					<img src="img/google_plus_logo.png" alt="google+" title="Comparteix a google+"/></a>
-				</li>
-			</ul>
-		</footer>
+			<!--footer-->
+	<?php include('includes/footer.html');
+	;?>
+	</div>
 	</div>
 </body>
 </html> 
