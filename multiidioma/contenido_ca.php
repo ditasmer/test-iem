@@ -17,4 +17,6 @@ $aceptopolitica = 'He llegit i accepto la política de privacitat:';
 $ver= 'Veure aquí';
 $enviar = 'Enviar';
 $cumplimiento = 'En cumpliment de la Lley Orgànica 15/1999, de 13 de desembre, de Protecció de Dades de Caràcter Personal (LOPD), li informem que les dades de caràcter personal que vosté ens comuniqui mitjançant aquest formulari de contacte seràn confidencials i, sota cap concepte, seràn transmesos a terceres persones.';
+$url_cursos = 'files/id_cursos_ca.txt';
+$url_index = 'files/id_index_ca.txt';
 ?>

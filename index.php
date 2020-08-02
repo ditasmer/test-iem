@@ -31,8 +31,8 @@ require('multiidioma/language.php');
 		    <div class="sections" id="index">
 		    	<!--lectura del texto descripcion index-->
 		    	<?php
-					if(file_exists('files/id_index.txt')){
-						readfile('files/id_index.txt');
+					if(file_exists($url_index)){
+						readfile($url_index);
 					}
 				?>
 		    </div>

@@ -29,8 +29,8 @@ require('multiidioma/language.php');
 		    <div class="sections"  id="cursos">
 		    	<!--lectura del texto descripcion cursos-->
 		    	<?php
-					if(file_exists('files/id_cursos.txt')){
-						readfile('files/id_cursos.txt');
+					if(file_exists($url_cursos)){
+						readfile($url_cursos);
 					}
 				?>
 
