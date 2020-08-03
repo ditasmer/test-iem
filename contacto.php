@@ -13,7 +13,25 @@ require('multiidioma/language.php');
 	<link rel="stylesheet" href="css/page.css" type="text/css" />
 	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
 	<script src="js/page.js" type="text/javascript"></script>
+
+	<!--Formulario valida comentarios en dir JS externo-->
+	<!--Opcion 1: pasando vars php-->
+	<!-- <script type="text/javascript">
+		var nombre = '<?=$nombre;?>';
+		var email = '<?=$email;?>';
+		var mensaje = '<?=$mensaje;?>';
+		var avisemail = '<?=$avisemail;?>';
+		var avisprivacitat = '<?=$avisprivacitat;?>';
+		var avisrevisar = '<?=$avisrevisar;?>';
+	</script> -->
+	<!--Formulario valida comentarios en dir JS externo-->
+	<!--Opcion 2: fichero de variables js para el form.js-->
+	<script type="text/javascript" src='js/vars_js_<?=$idioma?>.js'></script>script>
 	<script src="js/form.js" type="text/javascript"></script>
+	<!--Formulario valida comentarios en dir JS externo-->
+	<!-- Opcion 3: include del fichero de variables js-->
+	<!-- <?php include("js/vars_js_$idioma.js") ?> -->
+
 </head>
 <body>
 	<!--header-->
